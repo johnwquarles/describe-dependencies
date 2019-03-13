@@ -1,0 +1,14 @@
+{
+  "name": "describe-dependencies",
+  "version": "0.0.0",
+  "description": "generates a document describing your project's dependencies",
+  "main": "index.js",
+  "bin": {
+    "describe-dependencies": "./index.js"
+  },
+  "author": "John Quarles",
+  "license": "MIT",
+  "dependencies": {
+    "json2md": "^1.6.3"
+  }
+}
