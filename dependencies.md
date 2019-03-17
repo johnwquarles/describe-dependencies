@@ -6,10 +6,10 @@
 _Check dependencies in your node module_
 
 
-Total usages detected: 1
+Uses detected: 1
 
 
- - /Users/johnQ/code/describe-dependencies/lib/gatherData.js
+ - lib/gatherData.js
 
 ### **json2md**
 
@@ -17,10 +17,10 @@ Total usages detected: 1
 _A JSON to Markdown converter._
 
 
-Total usages detected: 1
+Uses detected: 1
 
 
- - /Users/johnQ/code/describe-dependencies/lib/renderers/markdown.js
+ - lib/renderers/markdown.js
 
 # DevDependencies
 
@@ -30,10 +30,10 @@ Total usages detected: 1
 _An AST-based pattern checker for JavaScript._
 
 
-Total usages detected: 1
+Uses detected: 1
 
 
- - /Users/johnQ/code/describe-dependencies/.eslintrc.json
+ - .eslintrc.json
 
 ### **eslint-config-airbnb-base**
 
@@ -41,10 +41,10 @@ Total usages detected: 1
 _Airbnb's base JS ESLint config, following our styleguide_
 
 
-Total usages detected: 1
+Uses detected: 1
 
 
- - /Users/johnQ/code/describe-dependencies/.eslintrc.json
+ - .eslintrc.json
 
 ### **eslint-config-prettier**
 
@@ -52,10 +52,10 @@ Total usages detected: 1
 _Turns off all rules that are unnecessary or might conflict with Prettier._
 
 
-Total usages detected: 1
+Uses detected: 1
 
 
- - /Users/johnQ/code/describe-dependencies/.eslintrc.json
+ - .eslintrc.json
 
 ### **eslint-plugin-import**
 
@@ -63,10 +63,10 @@ Total usages detected: 1
 _Import with sanity._
 
 
-Total usages detected: 1
+Uses detected: 1
 
 
- - /Users/johnQ/code/describe-dependencies/.eslintrc.json
+ - .eslintrc.json
 
 ### **eslint-plugin-prettier**
 
@@ -74,10 +74,10 @@ Total usages detected: 1
 _Runs prettier as an eslint rule_
 
 
-Total usages detected: 1
+Uses detected: 1
 
 
- - /Users/johnQ/code/describe-dependencies/.eslintrc.json
+ - .eslintrc.json
 
 ### **husky**
 
@@ -85,7 +85,7 @@ Total usages detected: 1
 _Prevents bad commit or push (git hooks, pre-commit/precommit, pre-push/prepush, post-merge/postmerge and all that stuff...)_
 
 
-Total usages detected: 0
+Uses detected: 0
 
 
 
@@ -95,7 +95,7 @@ Total usages detected: 0
 _Lint files staged by git_
 
 
-Total usages detected: 0
+Uses detected: 0
 
 
 
@@ -105,7 +105,7 @@ Total usages detected: 0
 _Prettier is an opinionated code formatter_
 
 
-Total usages detected: 1
+Uses detected: 1
 
 
- - /Users/johnQ/code/describe-dependencies/.eslintrc.json
+ - .eslintrc.json

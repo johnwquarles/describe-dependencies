@@ -1,6 +1,6 @@
 {
   "name": "describe-dependencies",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "generates a document describing your project's dependencies",
   "main": "index.js",
   "bin": "./index.js",
