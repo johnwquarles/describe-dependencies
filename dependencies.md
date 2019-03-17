@@ -1,57 +1,111 @@
-# dependencies
+# Dependencies
+
+### **depcheck**
 
 
-**json2md**
+_Check dependencies in your node module_
 
 
-- _A JSON to Markdown converter._
-
-# devDependencies
+Total usages detected: 1
 
 
-**eslint**
+ - /Users/johnQ/code/describe-dependencies/lib/gatherData.js
+
+### **json2md**
 
 
-- _An AST-based pattern checker for JavaScript._
+_A JSON to Markdown converter._
 
 
-**eslint-config-airbnb-base**
+Total usages detected: 1
 
 
-- _Airbnb's base JS ESLint config, following our styleguide_
+ - /Users/johnQ/code/describe-dependencies/lib/renderers/markdown.js
+
+# DevDependencies
+
+### **eslint**
 
 
-**eslint-config-prettier**
+_An AST-based pattern checker for JavaScript._
 
 
-- _Turns off all rules that are unnecessary or might conflict with Prettier._
+Total usages detected: 1
 
 
-**eslint-plugin-import**
+ - /Users/johnQ/code/describe-dependencies/.eslintrc.json
+
+### **eslint-config-airbnb-base**
 
 
-- _Import with sanity._
+_Airbnb's base JS ESLint config, following our styleguide_
 
 
-**eslint-plugin-prettier**
+Total usages detected: 1
 
 
-- _Runs prettier as an eslint rule_
+ - /Users/johnQ/code/describe-dependencies/.eslintrc.json
+
+### **eslint-config-prettier**
 
 
-**husky**
+_Turns off all rules that are unnecessary or might conflict with Prettier._
 
 
-- _Prevents bad commit or push (git hooks, pre-commit/precommit, pre-push/prepush, post-merge/postmerge and all that stuff...)_
+Total usages detected: 1
 
 
-**lint-staged**
+ - /Users/johnQ/code/describe-dependencies/.eslintrc.json
+
+### **eslint-plugin-import**
 
 
-- _Lint files staged by git_
+_Import with sanity._
 
 
-**prettier**
+Total usages detected: 1
 
 
-- _Prettier is an opinionated code formatter_
+ - /Users/johnQ/code/describe-dependencies/.eslintrc.json
+
+### **eslint-plugin-prettier**
+
+
+_Runs prettier as an eslint rule_
+
+
+Total usages detected: 1
+
+
+ - /Users/johnQ/code/describe-dependencies/.eslintrc.json
+
+### **husky**
+
+
+_Prevents bad commit or push (git hooks, pre-commit/precommit, pre-push/prepush, post-merge/postmerge and all that stuff...)_
+
+
+Total usages detected: 0
+
+
+
+### **lint-staged**
+
+
+_Lint files staged by git_
+
+
+Total usages detected: 0
+
+
+
+### **prettier**
+
+
+_Prettier is an opinionated code formatter_
+
+
+Total usages detected: 1
+
+
+ - /Users/johnQ/code/describe-dependencies/.eslintrc.json

@@ -1,12 +1,13 @@
 {
   "name": "describe-dependencies",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "generates a document describing your project's dependencies",
   "main": "index.js",
   "bin": "./index.js",
   "author": "John Quarles",
   "license": "MIT",
   "dependencies": {
+    "depcheck": "^0.7.2",
     "json2md": "^1.6.3"
   },
   "devDependencies": {
@@ -19,7 +20,10 @@
     "lint-staged": "^8.1.5",
     "prettier": "^1.16.4"
   },
-  "files": ["index.js", "lib"],
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "lint-staged": {
     "*.js": [
       "prettier --write",
@@ -29,7 +33,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged && npx describe-dependencies"
+      "pre-commit": "lint-staged && node ./index.js"
     }
   }
 }
