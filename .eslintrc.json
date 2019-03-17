@@ -1,0 +1,32 @@
+{
+  "extends": [
+    "airbnb-base",
+    "prettier"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }],
+    "prettier/prettier": "error",
+    "no-console": [
+      "error",
+      {
+        "allow": ["warn", "error"]
+      }
+    ],
+    "no-var": "warn",
+    "no-unused-vars": [
+      "warn",
+      {
+        "args": "after-used"
+      }
+    ],
+    "no-use-before-define": ["warn"],
+    "no-undef": "error",
+    "import/prefer-default-export": "off"
+  },
+  "env": {
+    "node": true,
+    "es6": true,
+    "jest": true
+  }
+}
