@@ -1,57 +1,111 @@
-# dependencies
+# Dependencies
+
+### **depcheck**
 
 
-**json2md**
+_Check dependencies in your node module_
 
 
-- _A JSON to Markdown converter._
-
-# devDependencies
+Uses detected: 1
 
 
-**eslint**
+ - lib/gatherData.js
+
+### **json2md**
 
 
-- _An AST-based pattern checker for JavaScript._
+_A JSON to Markdown converter._
 
 
-**eslint-config-airbnb-base**
+Uses detected: 1
 
 
-- _Airbnb's base JS ESLint config, following our styleguide_
+ - lib/renderers/markdown.js
+
+# DevDependencies
+
+### **eslint**
 
 
-**eslint-config-prettier**
+_An AST-based pattern checker for JavaScript._
 
 
-- _Turns off all rules that are unnecessary or might conflict with Prettier._
+Uses detected: 1
 
 
-**eslint-plugin-import**
+ - .eslintrc.json
+
+### **eslint-config-airbnb-base**
 
 
-- _Import with sanity._
+_Airbnb's base JS ESLint config, following our styleguide_
 
 
-**eslint-plugin-prettier**
+Uses detected: 1
 
 
-- _Runs prettier as an eslint rule_
+ - .eslintrc.json
+
+### **eslint-config-prettier**
 
 
-**husky**
+_Turns off all rules that are unnecessary or might conflict with Prettier._
 
 
-- _Prevents bad commit or push (git hooks, pre-commit/precommit, pre-push/prepush, post-merge/postmerge and all that stuff...)_
+Uses detected: 1
 
 
-**lint-staged**
+ - .eslintrc.json
+
+### **eslint-plugin-import**
 
 
-- _Lint files staged by git_
+_Import with sanity._
 
 
-**prettier**
+Uses detected: 1
 
 
-- _Prettier is an opinionated code formatter_
+ - .eslintrc.json
+
+### **eslint-plugin-prettier**
+
+
+_Runs prettier as an eslint rule_
+
+
+Uses detected: 1
+
+
+ - .eslintrc.json
+
+### **husky**
+
+
+_Prevents bad commit or push (git hooks, pre-commit/precommit, pre-push/prepush, post-merge/postmerge and all that stuff...)_
+
+
+Uses detected: 0
+
+
+
+### **lint-staged**
+
+
+_Lint files staged by git_
+
+
+Uses detected: 0
+
+
+
+### **prettier**
+
+
+_Prettier is an opinionated code formatter_
+
+
+Uses detected: 1
+
+
+ - .eslintrc.json
